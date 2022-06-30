@@ -1,0 +1,3 @@
+D:/code/cpp/local/clion/Socket-UDP/simple/Socket-UDP-Client/cmake-build-debug/CMakeFiles/Socket_UDP_Client.dir
+D:/code/cpp/local/clion/Socket-UDP/simple/Socket-UDP-Client/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/code/cpp/local/clion/Socket-UDP/simple/Socket-UDP-Client/cmake-build-debug/CMakeFiles/rebuild_cache.dir

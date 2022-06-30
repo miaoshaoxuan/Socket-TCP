@@ -1,0 +1,4 @@
+"E:\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\code\cpp\local\clion\Socket-UDP\simple\Server
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/code/cpp/local/clion/Socket-UDP/simple/Server/cmake-build-debug
