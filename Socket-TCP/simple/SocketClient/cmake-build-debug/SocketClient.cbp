@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/code/cpp/github.com/Socket-TCP/simple/SocketClient/cmake-build-debug"/>
+				<Option working_dir="D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SocketClient">
-				<Option output="D:/code/cpp/github.com/Socket-TCP/simple/SocketClient/cmake-build-debug/SocketClient.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/code/cpp/github.com/Socket-TCP/simple/SocketClient/cmake-build-debug"/>
+				<Option output="D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketClient/cmake-build-debug/SocketClient.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketClient/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -34,15 +34,15 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 SocketClient"/>
-					<CompileFile command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 SocketClient"/>
+					<CompileFile command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SocketClient/fast">
-				<Option output="D:/code/cpp/github.com/Socket-TCP/simple/SocketClient/cmake-build-debug/SocketClient.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/code/cpp/github.com/Socket-TCP/simple/SocketClient/cmake-build-debug"/>
+				<Option output="D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketClient/cmake-build-debug/SocketClient.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketClient/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -57,37 +57,37 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\\include\10.0.19041.0\\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 SocketClient/fast"/>
-					<CompileFile command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 SocketClient/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/code/cpp/github.com/Socket-TCP/simple/SocketClient/cmake-build-debug"/>
+				<Option working_dir="D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/code/cpp/github.com/Socket-TCP/simple/SocketClient/cmake-build-debug"/>
+				<Option working_dir="D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketClient/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/code/cpp/github.com/Socket-TCP/simple/SocketClient/main.cpp">
+		<Unit filename="D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketClient/main.cpp">
 			<Option target="SocketClient"/>
 		</Unit>
-		<Unit filename="D:/code/cpp/github.com/Socket-TCP/simple/SocketClient/CMakeLists.txt">
+		<Unit filename="D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketClient/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

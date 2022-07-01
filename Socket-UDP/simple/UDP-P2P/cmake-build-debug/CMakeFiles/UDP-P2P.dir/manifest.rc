@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/code/cpp/github.com/cpp-demo/Socket-UDP/simple/UDP-P2P/cmake-build-debug/CMakeFiles/UDP-P2P.dir/embed.manifest"

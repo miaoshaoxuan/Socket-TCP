@@ -18,7 +18,7 @@ int main() {
     // 绑定套接字
     sockaddr_in sockAddressInfo = {0};
     sockAddressInfo.sin_addr.S_un.S_addr = inet_addr("127.0.0.1");
-    sockAddressInfo.sin_port = htons(9998);
+    sockAddressInfo.sin_port = htons(9996);
     sockAddressInfo.sin_family = AF_INET;
     int bRes = bind(cSocket, (sockaddr*)&sockAddressInfo, sizeof(sockAddressInfo));
 
@@ -45,11 +45,18 @@ int main() {
     // 收发数据
     printf("Input: ");
     char sendData[100];
-    scanf("%s", sendData);
-    send(cSocket, sendData, strlen(sendData) + 1, 0);
-    char buf[100] = {0};
-    recv(cSocket, buf, 100, 0);
-    printf("Recv data:%s \n", buf);
+    while (true){
+        scanf("%s", sendData);
+        send(cSocket, sendData, strlen(sendData) + 1, 0);
+        char buf[100] = {0};
+        recv(cSocket, buf, 100, 0);
+        printf("Recv data:%s \n", buf);
+        if(strcmp(sendData, "close") == 0){
+            break;
+        }
+        memset(sendData, 0, 100);
+    }
+
     // 断开连接
     shutdown(cSocket, SD_SEND);
     // 关闭套接字

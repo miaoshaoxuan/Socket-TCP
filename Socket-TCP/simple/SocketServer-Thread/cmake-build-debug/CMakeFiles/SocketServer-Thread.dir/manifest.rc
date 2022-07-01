@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketServer-Thread/cmake-build-debug/CMakeFiles/SocketServer-Thread.dir/embed.manifest"

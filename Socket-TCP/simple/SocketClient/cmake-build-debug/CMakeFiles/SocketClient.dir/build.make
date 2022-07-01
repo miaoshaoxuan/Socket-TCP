@@ -46,10 +46,10 @@ RM = "E:\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\cpp\github.com\Socket-TCP\simple\SocketClient
+CMAKE_SOURCE_DIR = D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug
+CMAKE_BINARY_DIR = D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles\SocketClient.dir\depend.make
@@ -62,21 +62,21 @@ include CMakeFiles\SocketClient.dir\flags.make
 
 CMakeFiles\SocketClient.dir\main.cpp.obj: CMakeFiles\SocketClient.dir\flags.make
 CMakeFiles\SocketClient.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SocketClient.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SocketClient.dir/main.cpp.obj"
 	"D:\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\SocketClient.dir\main.cpp.obj /FdCMakeFiles\SocketClient.dir\ /FS -c D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\SocketClient.dir\main.cpp.obj /FdCMakeFiles\SocketClient.dir\ /FS -c D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\main.cpp
 <<
 
 CMakeFiles\SocketClient.dir\main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SocketClient.dir/main.cpp.i"
 	"D:\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\bin\Hostx86\x86\cl.exe" > CMakeFiles\SocketClient.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\main.cpp
 <<
 
 CMakeFiles\SocketClient.dir\main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SocketClient.dir/main.cpp.s"
 	"D:\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\bin\Hostx86\x86\cl.exe" @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SocketClient.dir\main.cpp.s /c D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\SocketClient.dir\main.cpp.s /c D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\main.cpp
 <<
 
 # Object files for target SocketClient
@@ -89,9 +89,9 @@ SocketClient_EXTERNAL_OBJECTS =
 SocketClient.exe: CMakeFiles\SocketClient.dir\main.cpp.obj
 SocketClient.exe: CMakeFiles\SocketClient.dir\build.make
 SocketClient.exe: CMakeFiles\SocketClient.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SocketClient.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SocketClient.exe"
 	"E:\JetBrains\CLion 2021.1.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\SocketClient.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- "D:\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.32.31326\bin\Hostx86\x86\link.exe" /nologo @CMakeFiles\SocketClient.dir\objects1.rsp @<<
- /out:SocketClient.exe /implib:SocketClient.lib /pdb:D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\SocketClient.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+ /out:SocketClient.exe /implib:SocketClient.lib /pdb:D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\SocketClient.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
 
 # Rule to build all files generated by this target.
@@ -104,6 +104,6 @@ CMakeFiles\SocketClient.dir\clean:
 .PHONY : CMakeFiles\SocketClient.dir\clean
 
 CMakeFiles\SocketClient.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\code\cpp\github.com\Socket-TCP\simple\SocketClient D:\code\cpp\github.com\Socket-TCP\simple\SocketClient D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug D:\code\cpp\github.com\Socket-TCP\simple\SocketClient\cmake-build-debug\CMakeFiles\SocketClient.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug D:\code\cpp\github.com\cpp-demo\Socket-TCP\simple\SocketClient\cmake-build-debug\CMakeFiles\SocketClient.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles\SocketClient.dir\depend
 

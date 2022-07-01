@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/code/cpp/github.com/cpp-demo/Socket-UDP/simple/UDP-P2P/main.cpp
+iostream
+-
+WinSock2.h
+-
+

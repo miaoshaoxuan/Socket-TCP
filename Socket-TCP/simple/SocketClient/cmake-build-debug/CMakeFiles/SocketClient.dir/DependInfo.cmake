@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/code/cpp/github.com/Socket-TCP/simple/SocketClient/main.cpp" "D:/code/cpp/github.com/Socket-TCP/simple/SocketClient/cmake-build-debug/CMakeFiles/SocketClient.dir/main.cpp.obj"
+  "D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketClient/main.cpp" "D:/code/cpp/github.com/cpp-demo/Socket-TCP/simple/SocketClient/cmake-build-debug/CMakeFiles/SocketClient.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
