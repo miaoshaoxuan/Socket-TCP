@@ -1,3 +1,0 @@
-D:/code/cpp/local/clion/Socket-UDP/simple/Server/cmake-build-debug/CMakeFiles/Server.dir
-D:/code/cpp/local/clion/Socket-UDP/simple/Server/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/code/cpp/local/clion/Socket-UDP/simple/Server/cmake-build-debug/CMakeFiles/rebuild_cache.dir

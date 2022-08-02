@@ -1,3 +1,0 @@
-D:/code/cpp/github.com/Socket-TCP/simple/SocketServer/cmake-build-debug/CMakeFiles/SocketServer.dir
-D:/code/cpp/github.com/Socket-TCP/simple/SocketServer/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/code/cpp/github.com/Socket-TCP/simple/SocketServer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
