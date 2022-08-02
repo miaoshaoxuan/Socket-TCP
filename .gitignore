@@ -1,0 +1,13 @@
+
+### IntelliJ IDEA ###
+**/.idea/
+
+### VS Code ###
+!**/.vscode/
+
+### Clion ####
+/**/**/**/**/cmake-build-debug/**
+
+### VS2019 ###
+!**/Debug/**
+/win32/**/**/.vs/**
